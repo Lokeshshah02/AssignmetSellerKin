@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FEFAE7;
+}
+
+header {
+    background: #ff4500;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.invite-banner {
+    background: #ff6347;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Navbar styles */
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /* Dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to orange when hovering */
+nav li a:hover {
+    background-color: #ff4500;
+}
+
+/* CTA button styling */
+nav .cta-button {
+    background-color: #ffa07a;
+    padding: 12px 20px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+nav .cta-button:hover {
+    background-color: #ff7f50;
+}
+
+.hero h1 {
+    color: #333;
+    text-align: center;
+}
+
+.hero p {
+    text-align: center;
+    color: #555;
+}
+
+.video-placeholder {
+    width: 40%;
+    height: 200px;
+    background-color: #000;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 60px;
+    padding-bottom: 90px;
+}
+
+.features li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cta button {
+    background-color: #ffa07a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
